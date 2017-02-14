@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body {
-    width: 90%;
+    width: 100%;
     margin: auto;
+    padding: 0 0.5em;
 }
 header {
     background-color: #313ead;
@@ -14,8 +15,8 @@ header {
     padding: 1em 0;
     margin: 1em 0;
 }
-header i {
-    padding-bottom: em;
+#parametre {
+    font-size: 30px;
 }
 header h1 {
      padding-bottom: 0.5em;
@@ -23,13 +24,14 @@ header h1 {
  header li{
      list-style-type: none;
      padding: 0.5em 0;
+     color: white;
 
  }
 header a{
     text-decoration: none;
     color: white;
-
 }
+
 
 img {
     width: 100%;
@@ -40,17 +42,15 @@ img {
     padding-bottom: 2em;
     border-bottom: 1px solid rgb(156, 156, 161);
 }
-#baseline h2{
-    padding: 1em 0;
+
+#articles_un{
+    border-bottom: 1px solid rgb(156, 156, 161);
 }
-#articles_un,
-#articles_deux,
-#contact{
+section {
     padding: 1em 0;
     text-align: center;
 }
-#articles_un h2,
-#articles_deux h2{
+section h2 {
     padding: 1em 0;
 
 }
@@ -67,8 +67,40 @@ button {
     padding: 1em 0;
     background-color: #e0eff7;
     margin: 1em 0;
+    font-size: 30px;
+    color: #5b6063;
 }
 #contact p{
     padding-bottom: 1.5em ;
     padding-top: 0.5em;
+    font-size: 15px;
+}
+.contactus {
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+    color :white;
+    background-color: #313ead;
+    padding:2em 0;
+    font-size: 13px;
+}
+footer ul {
+    margin: 1em 0;
+    display:flex;
+    justify-content:center;
+
+}
+footer li{
+    list-style-type: none;
+    width:1.5em;
+    height:1.5em;
+    background-color: #418eba;
+    margin: 0.2em;
+    padding-top: 0.1em;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
