@@ -8,18 +8,16 @@ body {
     margin: auto;
     font-family: 'Questrial';
     font-weight: 16px;
-    color: #2056ac;
+    /*color: #2056ac;*/
 }
-p {
-    color: rgb(66, 69, 69);
-    padding: 0 0.5em;
-}
+
 header {
     background-color: #313ead;
     color: white;
     text-align: center;
     padding: 1em 0;
-    margin: 1em 0;
+    margin-bottom: 1em;
+
 }
 #parametre {
     font-size: 30px;
@@ -53,6 +51,42 @@ img {
     width: 100%;
     height: auto;
 }
+
+section {
+    padding: 1em 0;
+    text-align: center;
+    color: #5b6063;
+}
+h2 {
+    padding-bottom: 1em;
+    font-family: 'Questrial';
+    font-size: 45px;
+    font-weight: bold;
+}
+h3 {
+    padding: 1em 0;
+    font-family: 'Questrial';
+    font-size: 26px;
+    font-weight: bold;
+}
+h4{
+    padding: 1em 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+p{
+    color: rgb(66, 69, 69);
+    padding: 1em 0.5em;
+}
+button {
+    min-width: 130px;
+    height: 40px;
+    background-color: #64ABD1;
+    border: none;
+    color: white;
+    margin: 1em 0;
+    padding: 0 1em;
+}
 #baseline {
     text-align: center;
     padding-bottom: 2em;
@@ -60,42 +94,15 @@ img {
 }
 
 #articles_un{
-    border-top: 1px solid rgb(156, 156, 161);
-    border-bottom: 1px solid rgb(156, 156, 161);
-}
-section {
-    padding: 1em 0;
-    text-align: center;
-}
-h2 {
-    padding: 1em 0;
-    font-family: 'Questrial';
-    font-size: 45px;
-    font-weight: bold;
-}
-h3 {
-    font-family: 'Questrial';
-    font-size: 26px;
-    font-weight: bold;
-}
-h4{
-    font-size: 16px;
-    font-weight: bold;
-}
-button {
-    width: 120px;
-    height: 40px;
-    background-color: #64abd1;
-    border: none;
-    color: white;
-    margin: 1em 0;
+    border-top: 1px solid rgb(177, 184, 181);
+    border-bottom: 1px solid rgb(177, 184, 181);
 }
 
 #contact{
     padding: 1em 0;
     background-color: #e0eff7;
     margin-top: 1em;
-    font-size: 30px;
+    font-size: 40px;
     color: #5b6063;
     border-bottom: 20px solid #3b4eb2;
 }

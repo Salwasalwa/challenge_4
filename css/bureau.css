@@ -1,21 +1,24 @@
 
-@media screen and (min-width: 500px) and (max-width : 1200px){
+@media screen and (min-width: 750px){
 
     html {
         margin: auto;
+        max-width: 1200px;
+        background-color: black;
 
     }
     body {
-        width: 100%;
+        width: auto;
         margin: auto;
+        background-color: white;
+        padding: 0;
 
     }
     header {
-        width: 100%;
+        width: auto;
         padding-top: 4em;
-        padding-bottom: 0;
-
-        /*margin: 0;*/
+        padding-bottom: 0em;
+        margin: 0;
     }
     #parametre {
         margin-top: 2em;
@@ -23,6 +26,7 @@
     h1 {
         margin-bottom: 2em;
         font-size: 56px;
+        padding-top: 15px;
     }
 
 
@@ -31,16 +35,16 @@
         justify-content: center;
         text-align: center;
     }
-    li {
+    header li {
         margin: 0 2em;
         padding: 1em 1em;
         font-weight: bold;
     }
+
     #selected {
         background-color: white;
         border-radius: 5px 5px 0 0;
-        color:#313ead;
-        padding: 0.5em 1em;
+        color:#2056ac;
     }
     img{
         width: 95%;
@@ -76,5 +80,10 @@
     #color{
         color: #3b4eb2;
         height: 25px;
+    }
+footer li{
+        width: 2.5em;
+        height: 2.5em;
+        padding-top: 0.7em;
     }
 }
